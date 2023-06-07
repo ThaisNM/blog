@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-color: rgb(190, 216, 218);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(175, 168, 238);
+  background-image: url("https://thumbs.dreamstime.com/b/paisajes-con-los-cielos-m%C3%B3viles-54799071.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.h2{
+background: rgb(175, 168, 238);
+}
+
+.header h1 {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #00ffd5;
+  position:sticky;
+  top:0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: blink;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #35e7ff;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #08796f;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(153, 243, 250);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(182, 247, 122);
+  margin-top: 20px;
+}
+ul.a {
+  list-style-type: square;
+}
+table, td, th {
+  border: 1px solid rgb(253, 0, 0);
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  background-color: bisque;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>BLOG DE THAIS</h1>
+</div>
+
+<div class="topnav">
+  <a href="#CONTACTO">CONTACTO</a>
+  <a href="https://www.fbcv.es/tag/cb-betera/">HOBBIES</a>
+  <a href="https://concepto.de/familia/">FAMILIA</a>
+  <a href="https://openai.com/blog/chatgpt" style="float:right">MÁS</a>
+</div>
+ 
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>BALONCESTO</h2>
+      <h5>Desde los 6 años, hasta ahora.</h5>
+      <img src="https://estaticos-cdn.sport.es/clip/f61ce660-5aed-4c1c-9a80-8af545e17bf3_16-9-discover-aspect-ratio_default_0.jpg" alt="10" width="700">
+      <p>¿Dónde juego?</p>
+     <p>NB Paterna y CB Bétera son dos equipos de baloncesto que representan a sus respectivas localidades en competiciones deportivas tanto a nivel regional como nacional. Ambos clubes tienen una larga historia en el baloncesto y cuentan con una sólida base de seguidores y jugadores talentosos.
+
+        NB Paterna, con sede en la localidad de Paterna, es un club con una destacada trayectoria en el baloncesto valenciano. Fundado en [año de fundación], el equipo ha logrado consolidarse como uno de los referentes del baloncesto en la zona. NB Paterna ha participado en diversas competiciones, incluyendo la Liga EBA (Categoría Nacional), donde han mostrado un alto nivel de competitividad y han obtenido buenos resultados.
+        
+        Por su parte, CB Bétera, con sede en la localidad de Bétera, también cuenta con una rica historia en el baloncesto. Fundado en [año de fundación], el club ha cosechado numerosos éxitos a nivel regional y ha logrado destacar en diferentes categorías. Los equipos del CB Bétera se caracterizan por su estilo de juego dinámico y la pasión con la que defienden los colores de su club.
+        
+        Ambos clubes comparten una rivalidad deportiva saludable, lo que ha llevado a emocionantes enfrentamientos en la cancha. Los partidos entre NB Paterna y CB Bétera son siempre esperados por los aficionados de ambos equipos, ya que se enfrentan dos conjuntos con una gran calidad de juego y un deseo de obtener la victoria.
+        
+        Además de su rendimiento en las competiciones, NB Paterna y CB Bétera también se han destacado por su labor en la formación de jóvenes talentos. Ambos clubes cuentan con categorías inferiores que permiten a los más jóvenes desarrollar sus habilidades y promover el baloncesto en sus respectivas comunidades.
+        
+        En resumen, NB Paterna y CB Bétera son dos equipos de baloncesto con una larga tradición y una pasión compartida por el deporte. Su rivalidad en la cancha ha dado lugar a emocionantes encuentros, mientras que su trabajo en la formación de jóvenes jugadores ha contribuido al crecimiento y desarrollo del baloncesto en la región. Ambos clubes continúan siendo referentes en el baloncesto valenciano y siguen dejando huella en cada competición en la que participan.</p>
+      <a href="https://www.noubasquetpaterna.com/">NB Paterna</a></em></p>
+      <a href="https://www.instagram.com/cbbeteraescuela/?hl=es">CB Bétera</a></em></p>
+    </div>
+    <div class="card">
+      <h2>CABALLOS</h2>
+      <h5>Desde 2020 hasta ahora</h5>
+      <img src="https://s1.eestatic.com/2020/05/17/como/curiosidades-animales-caballos_490711329_152100913_1024x576.jpg" alt="10" width="700">
+      <p>Centro Ecuestre L'Horta a Cavall es un lugar mágico para los amantes de los caballos y la equitación. Ubicado en la hermosa región de l'Horta, en la provincia de Valencia, este centro ecuestre se destaca por su compromiso con la enseñanza de la equitación y el cuidado de los caballos.
+
+        Con sus amplias instalaciones y una amplia gama de servicios, L'Horta a Cavall ofrece a jinetes de todos los niveles la oportunidad de disfrutar de la equitación en un entorno seguro y profesional. Ya sea que seas un principiante absoluto o un jinete experimentado, el centro tiene programas adaptados a tus necesidades y objetivos.
+        
+        El equipo de instructores altamente calificados y apasionados de L'Horta a Cavall está dedicado a brindar una enseñanza de calidad y asegurarse de que tanto los jinetes como los caballos se sientan cómodos y confiados. Desde clases de iniciación hasta entrenamientos avanzados de competición, cada lección se adapta para garantizar el progreso individual de cada alumno.
+        
+        Además de la enseñanza de la equitación, L'Horta a Cavall ofrece servicios de pupilaje para aquellos que deseen alojar a sus propios caballos en el centro. Las instalaciones cuentan con amplios establos, pastos bien cuidados y áreas de entrenamiento al aire libre, lo que brinda un ambiente cómodo y seguro para los caballos.
+        
+        El amor y el respeto por los caballos son valores fundamentales en L'Horta a Cavall. Se pone un gran énfasis en el bienestar de los caballos, asegurándose de que reciban una atención adecuada, una dieta equilibrada y un ambiente saludable. El centro también organiza actividades y eventos relacionados con los caballos, como paseos por la naturaleza y competiciones amistosas, para fomentar la pasión y el compañerismo entre los amantes de los caballos.
+        
+        En resumen, Centro Ecuestre L'Horta a Cavall es un lugar excepcional para aquellos que deseen aprender a montar a caballo, mejorar sus habilidades ecuestres o simplemente disfrutar de la compañía de estos majestuosos animales. Con su enfoque en la enseñanza de calidad, el bienestar de los caballos y una atmósfera acogedora, L'Horta a Cavall se ha convertido en un referente en el mundo de la equitación en la región de l'Horta y más allá.
+        
+        
+        
+        
+        
+        
+        Regenerate response </p>
+      <a href="https://www.lhortaacavall.com/escuela-de-equitaci%C3%B3n/">L'HORTA A CAVALL</a></em></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>FAMILIA</h2>
+      <ul class="a">
+        <li>Cristina</li>
+        <li>Izan</li>
+        <li>José Antonio</li>
+      </ul>
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Edad</th>
+        </tr>
+        <tr>
+          <td>Izan</td>
+          <td>Navarré</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>José Antonio</td>
+          <td>Navarré</td>
+          <td>42</td>
+        </tr>
+        <tr>
+          <td>Thais</td>
+          <td>Navarré</td>
+          <td>16</td>
+        </tr>
+        <tr>
+          <td>Cristina</td>
+          <td>Moncholí</td>
+          <td>42</td>
+        </tr>
+      </table>
+      
+    </div>
+    <div class="card">
+      <h3>OTRAS COSAS</h3>
+      <div class="fakeimg"><p>Hola, todas estas cosas son las que hago a los largo de mi vida casi todos los días con respecto a actividades físicas</p></div>
+    </div>
+    <div class="card">
+      <h3>DATOS DE CONTACTO</h3>
+      <p>holayadiós@gmail.com</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2 id="CONTACTO">CONTACTO </h2>
+<a title="YouTube" href="https://www.youtube.com/channel/UC9k6Fgn2_4sMUa8OFwaIwPA"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Youtubevanced.png" alt="YouTube" width="80"/></a>
+<a title="instagram" href="https://www.instagram.com/lacasadelascarcasas/?hl=es"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/150px-Instagram_logo_2022.svg.png" alt="instagram" width="80"/></a>
+<a title="twitter" href="https://twitter.com/ibaillanos/?lang=eu"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/320px-Logo_of_Twitter.svg.png" alt="twitter" width="80"/></a>
+<a title="facebook" href="https://es-la.facebook.com/reg/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/220px-Logo_de_Facebook.png" alt="facebook" width="80"/></a>
+<a title="linkedin" href="https://es.linkedin.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa8Xu8wDajQMIK7_PRk-3rMj_UXhHBM1Ma1ggD6YUSVsbINe_6xhOGJlrGJ1ha8QeQLh8&usqp=CAU" alt="linkedin" width="80"/></a>
+
+</div>
+</body>
+</html>
